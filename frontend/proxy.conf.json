@@ -1,0 +1,11 @@
+{
+    "/weather": {
+      "target": "https://api.hgbrasil.com",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/weather": "/weather"
+      }
+    }
+  }
+  

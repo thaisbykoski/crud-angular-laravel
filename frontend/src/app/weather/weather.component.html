@@ -1,0 +1,14 @@
+<div class="weather">
+    <h2>Weather Details</h2>
+    
+    <div class="exemplo"><img src="../../assets/icons/storm.svg" alt="Weather Icon"></div>
+
+    <div *ngIf="weatherData">
+    <div><strong>City:</strong> {{ weatherData.city }}</div>
+    <div><strong>Temperature:</strong> {{ weatherData.temp }} °C</div>
+    <div><strong>Description:</strong> {{ weatherData.description }}</div>
+    <div><img [src]="getWeatherIconUrl(weatherData.condition_slug)" alt="Weather Icon"></div>
+    </div>    
+</div>
+
+

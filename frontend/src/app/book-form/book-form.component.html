@@ -1,0 +1,28 @@
+<h2>{{ isNew ? 'Create' : 'Edit' }} Book</h2>
+
+<form (submit)="submitForm()">
+  <div class="form">
+    <label>Título:</label>
+    <input type="text" [(ngModel)]="book.nome" name="nome" required>
+  </div>
+  <div class="form">
+    <label>Autor:</label>
+    <input type="text" [(ngModel)]="book.autor" name="autor" required>
+  </div>
+  <div class="form">
+    <label>Categoria:</label>
+    <input type="text" [(ngModel)]="book.categoria" name="autor" required>
+  </div>
+  <div class="form">
+    <label>Valor:</label>
+    <input type="number" [(ngModel)]="book.valor" name="descricao" required>
+  </div>
+  <div class="form">
+    <label>Quantidade no Estoque:</label>
+    <input type="number" [(ngModel)]="book.quantidadeEstoque" name="quantidadeEstoque" required>
+  </div>
+  <div class="form">
+    <button type="submit">{{ isNew ? 'Create' : 'Update' }}</button>
+    <a [routerLink]="'/books'">Cancel</a>
+  </div>
+</form>

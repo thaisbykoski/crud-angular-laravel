@@ -1,0 +1,100 @@
+/* Estilo básico para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 310px;
+  }
+  
+  /* Estilos para a tabela */
+  .table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .table th, .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table thead {
+    background: #dceeff;;
+    color: #fff;
+  }
+  
+  .table thead th {
+    font-weight: bold;
+  }
+  
+  .table tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Estilos para os botões */
+  .btn {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .table a.btn {
+    margin: 0;
+  }
+  
+  /* Botão de criar livro */
+  .create-btn-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .create-btn-container .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,16 @@
+.weather {
+    padding-top: 0
+;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    text-align: center;
+}  
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .exemplo{
+    align-items: center;
+  }
+  

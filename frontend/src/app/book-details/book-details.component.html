@@ -1,0 +1,10 @@
+<h2>Book Details</h2>
+
+<div *ngIf="book">
+  <div><strong>Title:</strong> {{ book.nome }}</div>
+  <div><strong>Category:</strong> {{ book.categoria }}</div>
+  <div><strong>Value:</strong> {{ book.valor | currency:'BRL' }}</div>
+  <div><strong>Stock Quantity:</strong> {{ book.quantidadeEstoque }}</div>
+</div>
+
+<a [routerLink]="'/books'">Back to List</a>
